@@ -13,7 +13,6 @@ javascript express 環境で jwt, passport ライブラリを活用してユー�
   トークンを作るために使用
 
 - cookie-parser
-  쿠키를 파싱하기 위한 모듈
   クッキーをパーシングするために使用
 
 npm i dotenv express jsonwebtoken nodemon cookie-parser
