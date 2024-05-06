@@ -22,8 +22,6 @@ javascript express 環境で jwt, passport ライブラリを活用してユー�
 
 <br/>
 <br/>
-<br/>
-<br/>
 
 #### accesstoken<br/>
   jwt を使って作るトークン
