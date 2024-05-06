@@ -36,9 +36,17 @@ javascript express 環境で jwt, passport ライブラリを活用してユー�
 
 <br/>
 
-１．データにあるユーザーの情報を使ってログインする<br/>
+１．データにあるユーザーの情報を使ってログインする。<br/>
+アクセストークンが生成される。
 ![1](https://github.com/devDHB/auth-practice/assets/133613306/d3349af9-fa4e-403b-8673-72bf553b9600)
+<br/>
+
+２．トークンが有効するので情報を呼び出しができる。<br/>
+![2](https://github.com/devDHB/auth-practice/assets/133613306/7d6c46ad-6f34-4afb-bf7c-ecb6dd33742d)
+<br/>
 
 
+３．トークンが満了になって呼び出せない。<br/>
+![3](https://github.com/devDHB/auth-practice/assets/133613306/6259441d-8568-4677-980e-9a665320865e)
 <br/>
 
