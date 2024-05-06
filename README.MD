@@ -60,4 +60,8 @@ javascript express 環境で jwt, passport ライブラリを活用してユー�
 <br/>
 
 
-ps. passportライブラリーは準備中です。
+ps. 
+passportライブラリーは準備中です。
+まだdotenvの環境変数は使っていないです。
+
+
