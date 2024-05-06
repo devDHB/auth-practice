@@ -1,9 +1,9 @@
 # ログイン認証機能を実装する (Node.js jwt practice)
 
-### 概要<br/>
+## 概要<br/>
 javascript express 環境で jwt, passport ライブラリを活用してユーザーログイン機能を実装
 
-### 必要なモジュール
+## 必要なモジュール
 
 - dotenv<br/>
   環境変数生成
@@ -15,9 +15,9 @@ javascript express 環境で jwt, passport ライブラリを活用してユー�
 - cookie-parser<br/>
   クッキーをパーシングするために使用
 
-### npm i dotenv express jsonwebtoken nodemon cookie-parser
+#### npm i dotenv express jsonwebtoken nodemon cookie-parser
 
-### 全体的な流れ<br/>
+## 全体的な流れ<br/>
 ![001](https://github.com/devDHB/auth-practice/assets/133613306/c9b78dae-7bb6-4f4c-b31d-04edd4bf6797)
 
 <br/>
