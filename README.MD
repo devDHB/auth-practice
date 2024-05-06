@@ -1,14 +1,25 @@
-# 로그인 인증 기능 구현하기 (Node.js jwt practice)
+# ログイン認証機能を実装する (Node.js jwt practice)
 
-개요
-javascript express 환경에서 jwt, passport 라이브러리를 활용하여 유저 로그인 기능을 구현
+概要
+javascript express 環境で jwt, passport ライブラリを活用してユーザーログイン機能を実装
 
-필요한 모듈
-dotenv
-환경 변수 생성을 위한 모듈
-(다른 유저에게 정보를 유출하지 않기 위해)
+### 必要なモジュール
 
-jsonwebtoken
-토큰 생성을 위한 모듈
+- dotenv
+  環境変数生成
+  (他の人に情報を流出しないために)
 
-npm i dotenv express jsonwebtoken nodemon
+- jsonwebtoken
+  トークンを作るために使用
+
+- cookie-parser
+  쿠키를 파싱하기 위한 모듈
+  クッキーをパーシングするために使用
+
+npm i dotenv express jsonwebtoken nodemon cookie-parser
+
+- accesstoken
+  jwt を使って作るトークン
+
+- refreshtoken
+  セキュリティのためにトークンに有効期限を与え、期限切れになると更新できるトークン
